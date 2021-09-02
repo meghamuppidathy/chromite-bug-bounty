@@ -11,10 +11,10 @@
   8. C : Compressed Instructions </br>
  
 <h2> 2. List at least 4 unratified extensions of the unprivileged spec </h2>
-  1. L : Decimal floating point
-  2. B : Bit manipulation 
-  3. J : Dynamic Languages
-  4. T : Transactional memory 
+  1. L : Decimal floating point </br>
+  2. B : Bit manipulation </br>
+  3. J : Dynamic Languages </br>
+  4. T : Transactional memory </br>
 
 <h2> 3. Why do immediates have such a weird encodings? </h2>
   The reason immediates have such a "weird" encodings in some instruction formats is to ensure that the other fields namely the register fields(rs1,rs2) in the same position as the two source register fields in R-type instructions.
